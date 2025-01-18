@@ -20,8 +20,8 @@ def reverseAltWords(s):
             dots+=1
         else:
             currWord+=char
-    
-    return res[:-1]
+    res+=currWord
+    return res
 
 s="motivation.is.emotion.and.action.is.pain"
 result=reverseAltWords(s)
